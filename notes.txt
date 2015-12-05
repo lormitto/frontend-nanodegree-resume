@@ -1,0 +1,22 @@
+var email = "nowicki.adam@udacity.com";
+var newEmail = email.replace("udacity", "gmail");
+console.log(newEmail);
+
+@("#main").append(funThoughts);
+
+var s = "audacity";
+s = s[1].toUpperCase() + s.slice(2);
+
+var skills = ["awesomeness", "programming"];
+
+$("#main").append(skills[0]);
+
+
+function nameChanger(oldName) {
+    var finalName = oldName;
+    var names = oldName.split(" ");
+    names[1] = names[1].toUpperCase();
+    names[0] = names[0].slice(0,1).toUpperCase() + names[0].slice(1).toLowerCase();
+    finalName = names.join(" ");
+    return finalName;
+}
